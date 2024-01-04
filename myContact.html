@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>My Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+  <style>
+    .navbar-nav .nav-link {
+      font-size: 23px;
+    }
+  
+    .navbar-brand img {
+      width: 200px;
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin-top: 10px;
+    }
+  
+    .social-icons i {
+      font-size: 11rem;
+      color: #0D6EFD;
+      margin: 0 30px;
+    }
+
+    .social-icons i:hover{
+      color: #B2BCD1;
+    }
+
+  
+    @media (max-width: 1037px) {
+      .social-icons {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .social-icons i {
+        margin: 15px 0;
+      }
+    }
+     
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand" href="home.html"><img src="logo carel.png" alt="logo" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutMe.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myProjects.html"> My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="myContact.html"> My Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div style="text-align: center; margin-top: 60px;">
+    <h1 style="font-size: 3rem;">Feel free to contact me!</h1>
+  </div>
+  
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/carel-prianugra-ceri-pratama" target="_blank"> <i class="bi bi-linkedin"></i></a>
+    <a href="mailto:carel.prianugra.cp@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i> </a>
+    <a href="https://wa.me/6285719657722" target="_blank"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://www.instagram.com/carelpcp/" target="_blank"><i class="bi bi-instagram"></i></a>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+  
+
+</html>
